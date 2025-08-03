@@ -8,7 +8,7 @@ function Navbar() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
 
-  const API_BASE_URL = 'http://localhost:5000'; // Or import from a config file
+  const API_BASE_URL = 'https://project-train-rqqh.onrender.com'; // Or import from a config file
 
   // Function to check authentication status
   const checkAuthStatus = useCallback(async () => {

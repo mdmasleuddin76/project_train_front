@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE_URL = ''; // Or import from a config file
+const API_BASE_URL = 'https://project-train-rqqh.onrender.com'; // Or import from a config file
 
 
 // Receive onLoginSuccess prop

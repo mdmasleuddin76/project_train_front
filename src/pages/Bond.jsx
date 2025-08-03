@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // --- Axios API Instance ---
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api/portfolio', // It's often better to set the base to /api
+    baseURL: 'https://project-train-rqqh.onrender.com/api/portfolio', // It's often better to set the base to /api
     withCredentials: true // ✅ Correct: Placed inside the single config object
 });
 

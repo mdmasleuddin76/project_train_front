@@ -9,7 +9,7 @@ function Auth() {
   const [isLogin, setIsLogin] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   // const navigate = useNavigate();
-  const API_BASE_URL = 'http://localhost:5000'; // Or import from a config file
+  const API_BASE_URL = 'https://project-train-rqqh.onrender.com'; // Or import from a config file
   
   const navigate = useNavigate(); // Initialize navigate
 
