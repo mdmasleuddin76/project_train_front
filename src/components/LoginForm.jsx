@@ -33,8 +33,7 @@ function LoginForm({ switchToSignup}) {
       if (response.ok && data.success) {
         // Call the handler passed from App.jsx to update global state
         // onLoginSuccess(data.user);
-        // navigate('/dashboard'); // Navigate to chat page on successful login
-        window.location.href = '/dashboard';
+        navigate('/dashboard'); // Navigate to chat page on successful login
       } else {
         setError(data.message || 'Login failed. Please check your credentials.');
       }
