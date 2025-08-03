@@ -36,7 +36,7 @@ function SignupForm({ switchToLogin }) {
       if (response.ok && data.success) {
          // Call the handler passed from App.jsx to update global state
         // onLoginSuccess(data.user);
-        navigate('/chat'); // Navigate after successful signup
+        navigate('/dashboard'); // Navigate after successful signup
       } else {
         setError(data.message || 'Signup failed. Please try again.');
       }
